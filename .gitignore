@@ -13,6 +13,7 @@
 
 #cache
 .eslintcache
+.husky
 
 # misc
 .DS_Store
