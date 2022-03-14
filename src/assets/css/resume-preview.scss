@@ -1,0 +1,32 @@
+
+$backgroundColor: seagreen;
+
+// .resume-container{
+//     height: 100em;
+// }
+
+.basic-info{
+    background-color: $backgroundColor;
+    color: white;
+}
+
+.avatar-info >p {
+    color: red;
+    border-radius: 50%;
+    background: white;
+    padding: 7px;
+}
+
+.resume-title{
+    color: $backgroundColor;
+    position: relative;
+    border-bottom: 2px solid;
+}
+
+.position-details{
+   list-style-type: none;
+   li::before {
+    content: "• ";
+    color: $backgroundColor;
+  }
+}
